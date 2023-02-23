@@ -8,7 +8,7 @@ def add(a,b)
     print(<a value> + <b value> = <add(a, b) value> .format(a, b, sum))
     if __name__ == "__main__":
         # code to be executed when the module is run as the main program
->>> import 0-add    
+>>> import 0-add as 0-add1   
 
 
 
