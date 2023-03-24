@@ -5,6 +5,7 @@
     except if the new instance attribute is called first_name
 """
 
+
 class LockedClass:
     """
        empty LockedClass
