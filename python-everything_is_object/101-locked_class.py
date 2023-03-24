@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    class 'LockedClass' with no class or object attriutes, that prevents,
+    class 'LockedClass' with no class or object attributes  that prevents,
     the user from dynamically creating new instance attributes,
     except if the new instance attribute is called first_name
 """
@@ -8,6 +8,6 @@
 
 class LockedClass:
     """
-       empty LockedClass
-    """   
+        empty LockedClass
+    """
     __slots__ = ["first_name"]
