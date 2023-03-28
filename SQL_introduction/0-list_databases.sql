@@ -1,2 +1,2 @@
-# List all databases
-mysql -u user -p -e 'show databases;'
+#!/bin/bash
+mysql -u root -p -e 'SHOW DATABASES;'
