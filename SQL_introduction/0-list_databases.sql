@@ -1,2 +1,1 @@
-mysql -hlocalhost -uroot -root
-show databases
+mysql -u user -p -e 'show databases;'
