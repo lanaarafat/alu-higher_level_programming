@@ -1,2 +1,2 @@
-# sql doenot contail ^--
-show databases;
+mysql -hlocalhost -uroot -root
+show databases
