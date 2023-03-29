@@ -1,4 +1,4 @@
 -- This script creates a table in the current database
-CREATE TABLE IF NOT EXISTS first_table
+CREATE TABLE first_table IF NOT EXISTS hbtn_0c_0
 COUNT (id) INT
 COUNT (name) VARCHAR(256);
