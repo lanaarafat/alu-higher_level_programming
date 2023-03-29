@@ -1,2 +1,2 @@
---this scrit lists all databases
+--this scrit lists all database
 SHOW DATABASES;
