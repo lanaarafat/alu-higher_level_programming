@@ -1,4 +1,4 @@
---create table in database
+-- Script that creates a database and a table
 CREATE DATABASE IF NOT EXISTS hbtn_0d_usa; -- Query to create database
 USE hbtn_0d_usa;
 CREATE TABLE IF NOT EXISTS hbtn_0d_usa.cities ( -- Query to create cities in hbtn_0d_usa
