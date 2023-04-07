@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import urllib.request
+print(__import__("my_module").__doc__))
 if __name__ == '__main__':
     with urllib.request.urlopen('https://alu-intranet.hbtn.io/status') as response:
         content = response.read()
