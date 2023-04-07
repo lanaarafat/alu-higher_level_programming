@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" A python script that takes a URL, sends request and displays the value of variable found in the response header """
+""" Sends request and displays the value of variable found in the response header """
 import urllib.request
 import sys
 
