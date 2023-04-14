@@ -6,13 +6,16 @@ def add_integer(a, b=98):
 
     ''' return an interger after adding a and b '''
 
-    if type(a) is not int and type(a) is not float:
+    if type(a) == int:
+        pass
+    elif type(a) == float:
+        a = int(a)
+    else:
         raise TypeError("a must be an integer")
-    if type(b) is not int and type(b) is not float:
+    if type(b) == int:
+        pass
+    elif type(b) == float:
+        b = int(b)
+    else:
         raise TypeError("b must be an integer")
-    for i in (a, b):
-        if type(a) is float:
-            a = int(a)
-        if type(b) is float:
-            b = int(b)
     return a + b
