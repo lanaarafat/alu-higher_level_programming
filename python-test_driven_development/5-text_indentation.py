@@ -3,20 +3,19 @@
 
 def text_indentation(text):
     ''' print 2 lines after each character '''
-     if not isinstance(text, str):
+    if type(text) is not str:
         raise TypeError("text must be a string")
-
     c = 0
-    while c < len(text) and text[c] == ' ':
-        c += 1
-
-    while c < len(text):
-        print(text[c], end="")
-        if text[c] == "\n" or text[c] in ".?:":
-            if text[c] in ".?:":
-                print("\n")
-            c += 1
-            while c < len(text) and text[c] == ' ':
-                c += 1
-            continue
-        c += 1
+    for a in text:
+        if c == 0:
+            if a == ' ':
+                continue
+            else:
+                c = 1
+        if c == 1:
+            if a == '?' or a == '.' or a == ':':
+                print(a)
+                print()
+                c = 0
+            else:
+                print(a, end="")
