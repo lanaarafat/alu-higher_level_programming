@@ -2,20 +2,14 @@
 ''' A function that adds 2 intergers '''
 
 
-def add_integer(a, b=98):
-
+def add_integer(a, b):
     ''' return an interger after adding a and b '''
-
-    if type(a) == int:
-        pass
-    elif type(a) == float:
-        a = int(a)
-    else:
+    if type(a) is not int and type(a) is not float:
         raise TypeError("a must be an integer")
-    if type(b) == int:
-        pass
-    elif type(b) == float:
-        b = int(b)
-    else:
+    if type(b) is not int and type(b) is not float:
         raise TypeError("b must be an integer")
+    if type(a) is float:
+        a = int(a)
+    if type(b) is float:
+        b = int(b)
     return a + b
