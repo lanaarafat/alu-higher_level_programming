@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-''' Function divides all elements of a matrix '''
+''' divides all elements of a matrix '''
 
 
 def matrix_divided(matrix, div):
-    ''' function divides matrix by div, rounded to 2 decimal places '''
+    ''' divides matrix by div, rounded to 2 decimal places '''
     if type(matrix) is not list:
         raise TypeError("matrix must be a matrix (list of lists) of integers/floats")
     size = None
