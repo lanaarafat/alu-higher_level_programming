@@ -24,4 +24,4 @@ class TestMaxInteger(unittest.TestCase):
 
     def test_empty(self):
         """tests errors if argument is none"""
-        self.assertIsNone(max_integer())t
+        self.assertIsNone(max_integer())
