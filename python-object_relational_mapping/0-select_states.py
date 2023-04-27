@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""List states"""
+"""List states -  Module"""
 import MySQLdb
 from sys import argv
 
