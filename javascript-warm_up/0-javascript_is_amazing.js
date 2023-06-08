@@ -1,3 +1,4 @@
+#!/usr/bin/node
 // script prints JavaScript is amazing
 // declaring a variable
 let myVar = "JavaScript is amazing";
